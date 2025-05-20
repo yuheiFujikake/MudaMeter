@@ -1,0 +1,23 @@
+# ディレクトリ内のすべてのファイルを無視：
+build
+coverage
+
+# すべての Markdown ファイルを無視：
+*.md
+
+# すべての Yaml ファイルを無視：
+*.yaml
+
+# すべての HTML ファイルを無視：
+*.html
+
+# 現在のディレクトリとそのサブディレクトリに存在する全ての .xxx を無視：
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+# 設定関係のファイルを無視：
+package.json
+package-lock.json
+tsconfig.json
